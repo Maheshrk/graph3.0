@@ -1,0 +1,82 @@
+[
+    {
+        "title":"In Search of Lost Time",
+        "count":300
+    },
+    {
+        "title":"Ulysses",
+        "count":400
+    },
+    {
+        "title":"Don Quixote",
+        "count":320
+    },
+    {
+        "title":"The Great Gatsby",
+        "count":450
+    },
+    {
+        "title":"Moby Dick",
+        "count":500
+    },
+    {
+        "title":"One Hundred Years of Solitude",
+        "count":530
+    },
+    {
+        "title":"War and Peace",
+        "count":270
+    },
+    {
+        "title":"Hamlet",
+        "count":380
+    },
+    {
+        "title":"Lolita",
+        "count":520
+    },
+    {
+        "title":"The Odyssey",
+        "count":460
+    },
+    {
+        "title":"The Brothers Karamazov",
+        "count":600
+    },
+    {
+        "title":"The Adventures of Huckleberry Finn",
+        "count":290
+    },
+    {
+        "title":"Madame Bovary",
+        "count":580
+    },
+    {
+        "title":"The Catcher in the Rye",
+        "count":100
+    },
+    {
+        "title":"The Divine Comedy",
+        "count":490
+    },
+    {
+        "title":"Crime and Punishment",
+        "count":400
+    },
+    {
+        "title":"Alice's Adventures in Wonderland",
+        "count":300
+    },
+    {
+        "title":"Wuthering Heights",
+        "count":100
+    },
+    {
+        "title":"To the Lighthouse",
+        "count":160
+    },
+    {
+        "title":" To the Lighthouse",
+        "count":530
+    }
+]

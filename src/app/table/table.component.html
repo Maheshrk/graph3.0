@@ -1,0 +1,20 @@
+<p>table</p>
+<table *ngIf="selectedRec">
+    <thead>
+        <tr>
+            <th>Si. No</th>
+            <th>Title/Name</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let record of selectedRec.records; let i=index">
+            <td>{{i+1}}</td>
+            <td>
+                <span *ngIf="selectedRec.itemName == 'Cars'">{{record.name}}</span>
+                <span *ngIf="selectedRec.itemName == 'Books'">{{record.title}}</span>
+            </td>
+            <td>{{record.count}}</td>
+        </tr>
+    </tbody>
+</table>

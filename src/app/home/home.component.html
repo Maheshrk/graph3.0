@@ -1,0 +1,21 @@
+
+<form>
+    <input type="radio" name="item" value="Cars" (input) = "selectedItem($event)"> Cars
+    <input type="radio" name="item" value="Books" (input) = "selectedItem($event)"> Books<br>
+
+    <!-- <input type="numer" placeholder="enter count" (input)="getValue($event)"> -->
+    <select (change)="getValue($event)">
+        <option disabled>Select</option>
+        <option *ngFor="let iL of itemsLength">{{iL}}</option>
+    </select>
+</form>
+<hr>
+<div class="row">
+	<div class="col-md-6">
+		<app-chat [selectedRec] = "selectedRecords"></app-chat>
+	</div>
+	<div class="col-md-6">
+		<app-table [selectedRec] = "selectedRecords"></app-table>
+	</div>
+</div>
+
